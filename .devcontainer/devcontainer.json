@@ -1,0 +1,21 @@
+{
+	"name": "C/C++ HEIG-VD",
+	"dockerFile": "Dockerfile",
+	"runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"remoteUser": "vscode",
+	"extensions": [
+		"codezombiech.gitignore",
+		"coenraads.bracket-pair-colorizer",
+		"donjayamanne.githistory",
+		"ms-vscode.cpptools",
+		"redhat.vscode-yaml",
+		"xaver.clang-format",
+    "editorconfig.editorconfig",
+    "shardulm94.trailing-spaces",
+    "tyriar.sort-lines",
+    "yzhang.markdown-all-in-one"
+	]
+}
